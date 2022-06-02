@@ -1,0 +1,5 @@
+<app-divider>
+  Users
+</app-divider>
+<button (click)="onClick()">User Login</button>
+<app-users-modal (close)="onClick()" *ngIf="open"></app-users-modal>
